@@ -30,7 +30,6 @@ content {
     flex: 1; 
 }
 
-
 .tabs {
     margin: 0 10% 0 10%; 
 }
@@ -41,9 +40,9 @@ ul {
 }
 
 ul li {
+    flex: 0 0 50%;
     padding: 15px 10px;
     list-style-type: none;
-    width: 100%;
     text-align: center;
     background-color: white;
 }
@@ -54,6 +53,7 @@ ul li:hover {
 
 ul li a {
     color: #2989B2;
+    font-size: 28px;
 }
 
 ul li:hover a {
@@ -69,4 +69,23 @@ hr {
 
 .page_content {
     margin: 0 10% 0 10%; 
+}
+
+.ticket_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.ticket {
+    flex: 0 0 30%;
+    border: 1px solid #2989B2;
+    padding: 5px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 26px;
+    color: #2989B2;
 }
