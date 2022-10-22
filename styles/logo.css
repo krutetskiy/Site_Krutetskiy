@@ -1,0 +1,21 @@
+.box { 
+    flex: 1 1 auto; 
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    height: 120px;
+    width: 120px;
+}
+
+@keyframes rotacion{
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.logo {
+	animation: rotacion 4s cubic-bezier(.67,.09,.01,1.68) infinite alternate;
+	transform-origin: center center;
+}
