@@ -1,0 +1,10 @@
+:root {
+    --light: 300;
+    --regular: 400;
+    --bold: 700;
+    --common-size: 1rem;
+    --small: 1rem;
+    --medium: 1.25rem;
+    --big: 2rem;
+    --massive: 3rem;
+}
