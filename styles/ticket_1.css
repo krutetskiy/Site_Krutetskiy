@@ -1,0 +1,46 @@
+.pinguin {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.pinguin * {
+    position: absolute;
+}
+
+.pinguin-hat {
+    left: 32.5%;
+    height: 55px;
+    width: 110px;
+    background: rgb(238,200,144);
+    background-image: radial-gradient(circle, rgba(238,200,144,1) 0%, rgba(206,123,83,1) 30%, rgba(180,63,40,1) 100%);
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    z-index: 1;
+}
+
+.pinguin-hat-bottom-border {
+    top: 17%;
+    left: 30%;
+    height: 10px;
+    width: 124px;
+    background-color: #D08935;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 2;
+}
+
+.pinguin-body {
+    left: 30%;
+    top: 10%;
+    background-color: #272526;
+    height: 181px;
+    width: 124px;
+    border-radius: 60%;
+}
+
+/* 79 x 113 */
+/* 200 x 200 */
+/* 1.76 */
+/* 124 x 180 */
