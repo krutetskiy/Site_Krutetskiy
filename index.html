@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./static/img/atom.png">
     <link rel="stylesheet" href="./styles/main.css" />
+    //(?) А в чем особенность стилей logo
     <link rel="stylesheet" href="./styles/logo.css" />
     <link rel="stylesheet" href="./styles/adaptive.css" />
     <title>Krutetskiy | 2022</title>
 </head>
 
 <body>
+    //Странное именование классов, больше всего вохоже на БЭМ, но им не является, это решается множеством подходом но стоит использовать один
     <header>
         <div class="logo_container">
             <svg>
@@ -34,13 +36,17 @@
             </svg>
         </div>
         <hr>
+        // Тут можно добавить nav 
+        //(?) При hover выделяется весь элемент, но кликнуть можно только на надпись 
         <ul>
             <li><a href="./index.html">MAIN</a></li>
             <li><a href="https://dl.spbstu.ru/course/view.php?id=3490">COURSE</a></li>
             <li><a href="https://github.com/krutetskiy">GITHUB</a></li>
         </ul>
     </header>
+    // Странно что у тебя есть header footer но нет main
     <div class="page_container">
+        // Наверное стоит использовать заголовок
         <span class="title">Работы</span>
         <div class="ticket_container">
             <a href="./pages/ticket_1.html" class="ticket">
