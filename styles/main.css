@@ -1,6 +1,7 @@
 @import url(./vars/_font.css);
 @import url(./vars/_color.css);
 
+//Очень сомнительно, не стоит так делать
 * {
     padding: 0;
     margin: 0;
@@ -46,10 +47,13 @@ footer .container span {
     color: var(--font-color);
 }
 
+//Где?
 content { 
     flex: 1;
 }
 
+//Странно что в других местах ты используешь классы, а тут теги
+//В целом так делать не стоит, ты для всех тегов переопределяешь (для всех вхождений)
 ul {
     display: flex;
 }
@@ -64,6 +68,7 @@ ul li {
 }
 
 ul li:hover {
+    //Стоит определиться или переменные или просто строки
     background-color: #E5E5E5;
 }
 
