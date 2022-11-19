@@ -2,7 +2,7 @@
 
 __Скачать исходный код__
 
-<img src="https://disk.yandex.ru/client/disk/gifs?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fgifs%2Fdownload.gif" width=600>
+<img src="../krutetskiy-demo/static/readme/download.gif" width=600>
 
 ---
 
