@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: min(500px, 80vh);
+    position: relative;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.anim_container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container:active .anim_container .boy {
+    animation: boy 5s infinite;
+}
+
+.container:active .anim_container .brick {
+    animation: brick 5s infinite;
+}
+
+.boy {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: url(../static/img/boy1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.brick {
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    background: url(../static/img/brick.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+@keyframes boy {
+    0% {
+        background-image: url(../static/img/boy1.png);
+    }
+    50% {
+        background-image: url(../static/img/boy2.png);
+    }
+    100% {
+        background-image: url(../static/img/boy3.png);
+    }
+}
+
+@keyframes biggify {
+    0% {
+        transform: translate(-50%, 50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, 50%) scale(1.5);
+    }
+    100% {
+        transform: translate(-50%, 50%) scale(1);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-2%);
+    }
+    75% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
