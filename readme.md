@@ -2,7 +2,7 @@
 
 __Скачать исходный код__
 
-<img src="../krutetskiy-demo/static/readme/download.gif" width=600>
+<img src="https://disk.yandex.ru/i/JN6H4vNc_AWTZA" width=600>
 
 ---
 
