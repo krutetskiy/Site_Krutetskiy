@@ -15,8 +15,6 @@
 
 body {
     margin: 0 10% 0 10%; 
-    display: flex; 
-    flex-direction: column; 
 }
 
 a {
@@ -45,10 +43,6 @@ footer .container span {
     font-size: var(--common-size);
     font-weight: var(--massive);
     color: var(--font-color);
-}
-
-content { 
-    flex: 1;
 }
 
 ul li {
