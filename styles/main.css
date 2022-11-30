@@ -10,6 +10,7 @@
 .page_container {
     display: flex;
     flex-direction: column;
+    min-height: 70vh;
 }
 
 body {
@@ -24,7 +25,7 @@ a {
 }
 
 header {
-    min-height:50px;
+    min-height: 50px;
     margin-bottom: 10px; 
 }
 
