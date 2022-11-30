@@ -109,8 +109,3 @@ hr {
     font-size: var(--big);
     color: var(--font-color);
 }
-
-.title {
-    font-size: 26px;
-    color: var(--font-color);
-}
