@@ -1,25 +1,32 @@
-@media screen and (min-width: 790px) {
+@import url(../styles/vars/_font.css);
+@import url(../styles/vars/_color.css);
+
+@media screen and (min-width: 1300px) {
     .ticket {
+        background-color: var(--ticket-background-color);
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         flex: 0 0 30.33%;
         padding: 5px;
         margin: 10px;
         min-height: 400px;
         transition: box-shadow 0.3s ease-in-out;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 1300px) {
     .ticket {
+        background-color: var(--ticket-background-color);
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         flex: 0 0 90%;
         padding: 5px;
         margin: 10px;
         min-height: 200px;
         transition: box-shadow 0.3s ease-in-out;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 }
