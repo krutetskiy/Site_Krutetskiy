@@ -28,27 +28,36 @@ button:hover {
 
 .phrase_list {
     margin-right: 5px;
+    min-width: 350px;
 }
 
 .phrases {
     color: var(--font-color);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-self: center;
 }
 
 .phrase {
-    font-size: 20px;
+    font-size: var(--medium);
     text-align: left;
     padding: 5px;
 }
 
 .sub_phrase {
-    font-size: 18px;
+    font-size: var(--small);
     text-align: left;
     padding: 3px;
 }
 
+.add_control, .outline_control, .reset_control {
+    margin: 5px;
+}
+
 .controls {
-    align-self: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
 }

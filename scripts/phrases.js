@@ -14,6 +14,7 @@ const controlsContainer = document.querySelector('.controls');
 
 const addControl = controlsContainer.querySelector(".add_control");
 const outlineControl = controlsContainer.querySelector('.outline_control');
+const resetControl = controlsContainer.querySelector('.reset_control');
 
 const add = () => {
     const { phrases, current } = data;
@@ -59,5 +60,11 @@ const setOutline = () => {
     }
 }
 
+const reset = () => {
+    data.current = 0;
+    phraseList.innerHTML = '';
+}
+
 addControl.addEventListener('click', add);
 outlineControl.addEventListener('click', setOutline);
+resetControl.addEventListener('click', reset);
