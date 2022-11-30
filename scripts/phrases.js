@@ -62,6 +62,7 @@ const setOutline = () => {
 
 const reset = () => {
     data.current = 0;
+    data.isBoldOutline = false;
     phraseList.innerHTML = '';
 }
 
