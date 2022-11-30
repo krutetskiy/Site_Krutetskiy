@@ -1,6 +1,7 @@
 :root {
     --font-color: #2989B2;
-    --shadow-color: #2989B2;
+    --shadow-color: #1383B4;
     --gray-color: #D9D9D9;
     --white-color: #FFFFFF;
+    --ticket-background-color: #D9D9D9;
 }
