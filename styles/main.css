@@ -51,10 +51,6 @@ content {
     flex: 1;
 }
 
-ul {
-    display: flex;
-}
-
 ul li {
     flex: 0 0 31.4%;
     padding: 15px 10px;
